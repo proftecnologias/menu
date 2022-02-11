@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;
-    overflow: hidden;
 }
 
 nav {
@@ -40,10 +39,11 @@ nav ul li a:hover {
 }
 .contentor {
     height:100vh;
-    width:100vw;
+    width:100%;
     display:flex;
     align-items: center;
     justify-content:space-around ;
+    overflow:hidden;
 }
 .caixa {
     margin-left: 20px;
