@@ -42,6 +42,7 @@ nav ul li a:hover {
     display:flex;
     align-items: center;
     justify-content:space-around ;
+    overflow: hidden;
 }
 .caixa {
     margin-left: 20px;
